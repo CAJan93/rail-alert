@@ -105,9 +105,9 @@ class Nightjetter:
         )
 
         content = response.json()
-        if "error" in content or content["result"][0] is None:
+        if "error" in content or content["result"][0] is None or len(content["result"][0]["connections"][0]["offers"])== 0:
             return None
-        print("found something")
+        # print(content)
 
         first_result = content["result"][0]
         first_connection = first_result["connections"][0]
@@ -128,7 +128,6 @@ def find_connections(
     all_offers = []
     for i in range(advance_days):
         next_date = date_start + timedelta(days=i)
-        offers = jetter.findOffers(station_from, station_to, next_date)
         print(
             "Processing connection from ",
             station_from_resl_name,
@@ -137,7 +136,7 @@ def find_connections(
             " at",
             str(next_date),
         )
-
+        offers = jetter.findOffers(station_from, station_to, next_date)
         if offers is None:
             continue
         all_offers.append(
