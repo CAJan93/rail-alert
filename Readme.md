@@ -2,7 +2,16 @@
 
 Watch for a connection with ÖBB Nightjet and send a notification to your Telegram if its available. 
 
+## How to install? 
 
+```
+pip3 install -r requirements.txt
+```
+
+## How to run?
+
+
+## How to deploy?
 
 ## Credits
 
