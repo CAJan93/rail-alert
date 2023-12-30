@@ -18,4 +18,4 @@ pip3 install -r requirements.txt
 This project was inspired by the following projects 
 
 - [nightjetter](https://github.com/KevinW1998/nightjetter) for retrieving information about the ÖBB nightjet trains
-- telebot for sending notifications to your telegram account
+- telepot for sending notifications to your telegram account
