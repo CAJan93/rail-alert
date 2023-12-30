@@ -2,7 +2,7 @@ import time
 import telebot
 import sys
 import argparse
-from nightjetter.main import test_func
+from nightjetter.watcher import test_func
 
 
 def main():
@@ -48,6 +48,8 @@ def main():
 
         try:
             bot.print_status()
+
+            # if args.nightjet is not None:
 
             # call the other program here!
 
