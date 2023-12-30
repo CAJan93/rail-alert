@@ -2,10 +2,13 @@ import time
 import telebot
 import sys
 import argparse
+from nightjetter.main import test_func
 
 
 def main():
     parser = argparse.ArgumentParser(description = "find routes at date")
+    parser.add_argument("-b", "--bot_key", help="key for the telegram bot", type=str, required=True)
+    
     sp = parser.add_subparsers(title="subparser")
     
     nj = sp.add_parser("nightjet", description="search for ÖBB nightjet connections")
@@ -25,15 +28,12 @@ def main():
     args = parser.parse_args()
 
     # Grab Bot Key & init Telebot
-    BOT_KEY = sys.argv[1]
-    bot = telebot.TelegramBot(BOT_KEY)
+    bot = telebot.TelegramBot(args.bot_key)
 
-    # Init vars
-    appartment_links = []
+
 
 
     count = 0
-
     while True:
         if count == 0: 
             bot.send_message("program is still running...")
@@ -43,6 +43,8 @@ def main():
             bot.print_status()
 
             # call the other program here!
+
+
             
             
             # if success 
@@ -58,6 +60,5 @@ def main():
         time.sleep(60*60) 
 
 if __name__ == '__main__':
-    print("entering the fun here")
     main()
 

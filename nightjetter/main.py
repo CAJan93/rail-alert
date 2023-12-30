@@ -1,5 +1,4 @@
 import requests
-import json
 from datetime import date, datetime,timedelta
 import os
 import argparse
@@ -270,10 +269,11 @@ def protocol_connection(jetter: Nightjetter, station_from: str, station_to: str,
         csv_out_file.write(line_time + "\n")
 
 
-def main():
-    jetter = Nightjetter()
-    
+def test_func(): 
+    print("this is a test")
 
+def deprecated():
+    jetter = Nightjetter()
     
     # argparse
     parser = argparse.ArgumentParser(description = "find routes at date")
@@ -296,9 +296,6 @@ def main():
 # TODO: pass  in data and cities 
     
 
-
-if __name__ == '__main__':
-    main()
 
 # if there is an offer
 # cat output/Berlin_Strassburg.csv  | tail -1 | grep -e [0-9]
