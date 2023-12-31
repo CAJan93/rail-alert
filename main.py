@@ -11,6 +11,9 @@ def main():
     parser.add_argument(
         "-b", "--bot_key", help="key for the telegram bot", type=str, required=True
     )
+    parser.add_argument(
+        "-i", "--interval", help="sleep interval in minutes between queries", type=int, required=False, default=60
+    )
 
     sp = parser.add_subparsers(title="subparser", dest="sub")
     nj = sp.add_parser("nightjet", description="search for ÖBB nightjet connections")
@@ -45,7 +48,7 @@ def main():
     # Grab Bot Key & init Telebot
     bot = TelegramBot(args.bot_key)
 
-    count = 1  # TODO: reset to 0
+    count = 0
     while True:
         if count == 0:
             bot.send_messages("program is still running...")
@@ -62,17 +65,15 @@ def main():
                     date_start,
                     advance_days=args.advance,
                 )
-                print(conns)
+                print(conns) # TODO  remove prints
                 if len(conns) > 0:
-                    # TODO: send bot messages
                     print("found a connection: Happy!")
                     for conn in conns:
                         print(conn)
-
-            # call the other program here!
-
-            # if success
-            bot.send_messages("found a valid connection from to at date")
+                    bot.send_messages(f"For the connection from {args.from_city} to {args.to_city} on {str(date_start)} + {args.advance} days the following connections where found: {', '.join(conns)}")
+                    
+            else: 
+                print("no other watchers implemented")
 
         except (KeyboardInterrupt, SystemExit):
             # Allow to terminate the script using CTRL-C
@@ -80,8 +81,8 @@ def main():
         except Exception as e:
             print(e)
 
-        # sleep for an hour no matter what
-        time.sleep(60 * 60)
+        # sleep for number of minutes
+        time.sleep(60 * args.interval)
 
 
 if __name__ == "__main__":
