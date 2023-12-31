@@ -105,7 +105,11 @@ class Nightjetter:
         )
 
         content = response.json()
-        if "error" in content or content["result"][0] is None or len(content["result"][0]["connections"][0]["offers"])== 0:
+        if (
+            "error" in content
+            or content["result"][0] is None
+            or len(content["result"][0]["connections"][0]["offers"]) == 0
+        ):
             return None
         # print(content)
 
@@ -144,23 +148,3 @@ def find_connections(
         )
 
     return all_offers
-
-# TODO: remove this function
-def deprecated():
-    # argparse
-    parser = argparse.ArgumentParser(description="find routes at date")
-    parser.add_argument(
-        "-f", "--from_city", type=str, help="Departure city.", required=True
-    )
-    parser.add_argument(
-        "-t", "--to_city", type=str, help="Destination city.", required=True
-    )
-    parser.add_argument("-y", "--year", type=int, help="year.", required=True)
-    parser.add_argument("-m", "--month", type=int, help="month.", required=True)
-    parser.add_argument("-d", "--day", type=int, help="day.", required=True)
-    args = parser.parse_args()
-
-    # "Berlin", "Strassburg"
-    date_start = date(args.year, args.month, args.day)
-    os.makedirs(prefix, exist_ok=True)
-    find_connections(args.from_city, args.to_city, date_start, False, 5)

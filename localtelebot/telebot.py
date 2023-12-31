@@ -7,7 +7,7 @@ class TelegramBot:
     def __init__(self, KEY):
         self.bot = telepot.Bot(KEY)
         self.subscriber_list = set()
-      #  self.subscriber_list.add(-1001492640968)
+        #  self.subscriber_list.add(-1001492640968)
         self.scan_counter = 0
         self.start = time.time()
         self.update_subscribers()

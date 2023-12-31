@@ -12,7 +12,12 @@ def main():
         "-b", "--bot_key", help="key for the telegram bot", type=str, required=True
     )
     parser.add_argument(
-        "-i", "--interval", help="sleep interval in minutes between queries", type=int, required=False, default=60
+        "-i",
+        "--interval",
+        help="sleep interval in minutes between queries",
+        type=int,
+        required=False,
+        default=60,
     )
 
     sp = parser.add_subparsers(title="subparser", dest="sub")
@@ -65,14 +70,16 @@ def main():
                     date_start,
                     advance_days=args.advance,
                 )
-                print(conns) # TODO  remove prints
+                print(conns)  # TODO  remove prints
                 if len(conns) > 0:
                     print("found a connection: Happy!")
                     for conn in conns:
                         print(conn)
-                    bot.send_messages(f"For the connection from {args.from_city} to {args.to_city} on {str(date_start)} + {args.advance} days the following connections where found: {', '.join(conns)}")
-                    
-            else: 
+                    bot.send_messages(
+                        f"For the connection from {args.from_city} to {args.to_city} on {str(date_start)} + {args.advance} days the following connections where found: {', '.join(conns)}"
+                    )
+
+            else:
                 print("no other watchers implemented")
 
         except (KeyboardInterrupt, SystemExit):
