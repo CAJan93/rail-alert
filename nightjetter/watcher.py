@@ -145,7 +145,7 @@ def find_connections(
 
     return all_offers
 
-
+# TODO: remove this function
 def deprecated():
     # argparse
     parser = argparse.ArgumentParser(description="find routes at date")

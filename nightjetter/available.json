@@ -1,0 +1,2481 @@
+{
+    "result": [
+        {
+            "connections": [
+                {
+                    "sections": [
+                        {
+                            "departureTimestamp": "2024-02-09T20: 18: 00+01: 00",
+                            "arrivalTimestamp": "2024-02-10T05: 44: 00+01: 00",
+                            "passlist": [
+                                {
+                                    "name": "Berlin Hbf",
+                                    "stationNumber": 8098160,
+                                    "departure": "2024-02-09T20: 18: 00+01: 00",
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "1",
+                                    "stopState": [
+                                        "DEP_PROGNOSED"
+                                    ],
+                                    "gpsCoordinates": [
+                                        52525589,
+                                        13369549
+                                    ]
+                                },
+                                {
+                                    "name": "Berlin Südkreuz",
+                                    "stationNumber": 8011113,
+                                    "departure": "2024-02-09T20: 26: 00+01: 00",
+                                    "arrival": "2024-02-09T20: 23: 00+01: 00",
+                                    "arrivalAccessExitAmendable": false,
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "3",
+                                    "gpsCoordinates": [
+                                        52475043,
+                                        13365315
+                                    ]
+                                },
+                                {
+                                    "name": "Halle(Saale)Hbf",
+                                    "stationNumber": 8010159,
+                                    "departure": "2024-02-09T22: 18: 00+01: 00",
+                                    "arrival": "2024-02-09T22: 16: 00+01: 00",
+                                    "arrivalAccessExitAmendable": true,
+                                    "arrivalPlatform": "6",
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "6",
+                                    "gpsCoordinates": [
+                                        51477510,
+                                        11987088
+                                    ]
+                                },
+                                {
+                                    "name": "Erfurt Hbf",
+                                    "stationNumber": 8010101,
+                                    "departure": "2024-02-09T23: 36: 00+01: 00",
+                                    "arrival": "2024-02-09T23: 34: 00+01: 00",
+                                    "arrivalAccessExitAmendable": true,
+                                    "arrivalPlatform": "9",
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "9",
+                                    "gpsCoordinates": [
+                                        50972550,
+                                        11038502
+                                    ]
+                                },
+                                {
+                                    "name": "Frankfurt(Main)Süd",
+                                    "stationNumber": 8002041,
+                                    "departure": "2024-02-10T02: 12: 00+01: 00",
+                                    "arrival": "2024-02-10T02: 10: 00+01: 00",
+                                    "arrivalAccessExitAmendable": true,
+                                    "arrivalPlatform": "7",
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "7",
+                                    "gpsCoordinates": [
+                                        50099365,
+                                        8686456
+                                    ]
+                                },
+                                {
+                                    "name": "Mannheim Hbf",
+                                    "stationNumber": 8000244,
+                                    "departure": "2024-02-10T04: 20: 00+01: 00",
+                                    "arrival": "2024-02-10T03: 11: 00+01: 00",
+                                    "arrivalAccessExitAmendable": false,
+                                    "departureAccessExitAmendable": false,
+                                    "gpsCoordinates": [
+                                        49479352,
+                                        8468917
+                                    ]
+                                },
+                                {
+                                    "name": "Kehl(Gr)",
+                                    "stationNumber": 8000008,
+                                    "departure": "2024-02-10T05: 40: 00+01: 00",
+                                    "arrival": "2024-02-10T05: 40: 00+01: 00",
+                                    "arrivalAccessExitAmendable": false,
+                                    "departureAccessExitAmendable": false,
+                                    "gpsCoordinates": [
+                                        48575648,
+                                        7801118
+                                    ]
+                                },
+                                {
+                                    "name": "Strasbourg",
+                                    "stationNumber": 8700023,
+                                    "arrival": "2024-02-10T05: 44: 00+01: 00",
+                                    "arrivalAccessExitAmendable": true,
+                                    "gpsCoordinates": [
+                                        48585339,
+                                        7734067
+                                    ]
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "attributeType": "operator",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "DPN",
+                                    "svalue": "DPN",
+                                    "lvalue": "Nahreisezug"
+                                },
+                                {
+                                    "attributeType": "operator_id",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "81"
+                                },
+                                {
+                                    "attributeType": "pclass",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": 3
+                                },
+                                {
+                                    "attributeType": "intcat",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "NJ"
+                                },
+                                {
+                                    "attributeType": "cat",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "NJ      ",
+                                    "svalue": "NJ",
+                                    "lvalue": "nightjet",
+                                    "code": "3"
+                                },
+                                {
+                                    "attributeType": "name",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "NJ 40424"
+                                },
+                                {
+                                    "attributeType": "num",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "40424"
+                                },
+                                {
+                                    "attributeType": "intnum",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": 40424
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Reservierungspflicht",
+                                    "code": "RP",
+                                    "priority": 1
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Rollstuhlstellplatz",
+                                    "code": "RO",
+                                    "priority": 150
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Rollstuhlstellplatz - Voranmeldung unter +43 5 1717",
+                                    "code": "OA",
+                                    "priority": 150
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "rollstuhltaugliches WC",
+                                    "code": "OC",
+                                    "priority": 150
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "in Sitzwagen nur 2. Klasse",
+                                    "code": "J2",
+                                    "priority": 300
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "ÖBB Nightjet (www.nightjet.com)",
+                                    "code": "OJ",
+                                    "priority": 320
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Komfortticket (IRT Integrated Reservation Ticket)",
+                                    "code": "CT",
+                                    "priority": 320
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Schlafwagen",
+                                    "code": "SW",
+                                    "priority": 400
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Liegewagen",
+                                    "code": "LW",
+                                    "priority": 400
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Imbiss und Getränke beim Schlaf-/Liegewagenbetreuer erhältlich",
+                                    "code": "MN",
+                                    "priority": 450
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "nightjet",
+                                    "code": "ZN",
+                                    "priority": 100
+                                },
+                                {
+                                    "attributeType": "info",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Paris Est",
+                                    "code": "RL"
+                                },
+                                {
+                                    "attributeType": "dir",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Paris Est"
+                                }
+                            ],
+                            "i": 0,
+                            "transportType": "journey"
+                        }
+                    ],
+                    "offers": [
+                        {
+                            "name": "Sparschiene inkl. Reservierung",
+                            "productType": "CONNECTION",
+                            "partialOffer": false,
+                            "productDetails": [
+                                {
+                                    "scope": [
+                                        [
+                                            0,
+                                            0,
+                                            0,
+                                            7
+                                        ]
+                                    ],
+                                    "title": "ARES Sparschiene Nachtverkehr",
+                                    "name": {
+                                        "de": "Sparschiene inkl. Reservierung",
+                                        "en": "Sparschiene incl. Reservation",
+                                        "it": "Sparschiene prenotazione incl."
+                                    },
+                                    "validityPeriodFrom": "2024-02-09T20: 18: 00+01: 00",
+                                    "validityPeriodTo": "2024-02-10T05: 44: 00+01: 00",
+                                    "globallyPriced": true,
+                                    "objects": [
+                                        {
+                                            "index": 0,
+                                            "priceClass2": 54.9
+                                        },
+                                        {
+                                            "index": 1,
+                                            "priceClass2": 54.9
+                                        }
+                                    ],
+                                    "prodGroupLabels": [
+                                        "Kein Storno",
+                                        "Zugbindung",
+                                        "eineFahrt",
+                                        "featured",
+                                        "nightjetSparschiene"
+                                    ],
+                                    "validityType": "oneway"
+                                }
+                            ],
+                            "reservation": {
+                                "reservationSegments": [
+                                    {
+                                        "scope": [
+                                            0,
+                                            0,
+                                            0,
+                                            7
+                                        ],
+                                        "compartments": [
+                                            {
+                                                "externalIdentifier": "couchette6",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 84.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 84.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756468,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 6 Personen",
+                                                    "en": "Compartment for 6 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 6 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 60,
+                                                "capacity": 6
+                                            },
+                                            {
+                                                "externalIdentifier": "single",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 384.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 384.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756872,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 1 Person (Single)",
+                                                    "en": "Compartment for 1 passenger (Single)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 1 persona (Single)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "surchargePrice": 660,
+                                                "capacity": 1
+                                            },
+                                            {
+                                                "externalIdentifier": "singlePlus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 429.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 494.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756876,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 1 Person mit Dusche/WC (Single plus)",
+                                                    "en": "Compartment for 1 passenger with shower/WC (Single plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 1 person1 con doccia/WC  (Single plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "surchargePrice": 815,
+                                                "capacity": 1
+                                            },
+                                            {
+                                                "externalIdentifier": "doublePlus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 289.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 289.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756892,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 2 Personen mit Dusche/WC (Double plus)",
+                                                    "en": "Compartment for 2 passengers with shower/WC (Double plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 2 persone con doccia/WC  (Double plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 470,
+                                                "capacity": 2
+                                            },
+                                            {
+                                                "externalIdentifier": "T3",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 134.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 134.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756913,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 3 Personen (Triple)",
+                                                    "en": "Compartment for 3 passengers (Triple)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 3 persone (Triple)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 160,
+                                                "capacity": 3
+                                            },
+                                            {
+                                                "externalIdentifier": "T3Plus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 169.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 169.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756923,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 3 Personen mit Dusche/WC (Triple plus)",
+                                                    "en": "Compartment for 3 passengers with shower/WC (Triple plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 3 persone con doccia/WC (Triple plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 230,
+                                                "capacity": 3
+                                            },
+                                            {
+                                                "externalIdentifier": "privateCouchette",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "privateVariations": [
+                                                    {
+                                                        "count": 1,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 499.9
+                                                                    },
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 0
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 390.1
+                                                    },
+                                                    {
+                                                        "count": 2,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 499.9
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 499.9
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 890
+                                                    }
+                                                ],
+                                                "id": 5000057,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Privatabteil im Liegewagen für bis zu 6 Personen",
+                                                    "en": "Private compartment for up to 6 passengers in a couchette coach",
+                                                    "fr": ".",
+                                                    "it": "Scompartimento privato in carrozza cuccette per 6 passeggeri al massimo"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "capacity": 6,
+                                                "privateCompartmentContainsSubcompartments": false
+                                            },
+                                            {
+                                                "externalIdentifier": "privateSeat",
+                                                "accommodationType": "SE",
+                                                "special": false,
+                                                "privateVariations": [
+                                                    {
+                                                        "count": 1,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 274.9
+                                                                    },
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 0
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 165.1
+                                                    },
+                                                    {
+                                                        "count": 2,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 274.9
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 274.9
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 440
+                                                    }
+                                                ],
+                                                "id": 5000059,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Privatabteil im Sitzwagen 2. Klasse",
+                                                    "en": "Private compartment in a 2nd class seated coach",
+                                                    "fr": ".",
+                                                    "it": "Scompartimento privato in carrozza con posti a sedere,2a classe"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "capacity": 6,
+                                                "privateCompartmentContainsSubcompartments": false
+                                            },
+                                            {
+                                                "externalIdentifier": "femaleCouchette6",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 84.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 84.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 5000069,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Damenabteil für 6 Personen",
+                                                    "en": "Ladies only compartment for 6 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento donna per 6 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente finestrinopreferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 60,
+                                                "capacity": 6
+                                            },
+                                            {
+                                                "externalIdentifier": "sideCorridorCoach_2",
+                                                "accommodationType": "SE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 54.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 54.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 5000075,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Sitzplatz 2. Klasse",
+                                                    "en": "Seat 2nd class",
+                                                    "fr": ".",
+                                                    "it": "Posto a sedere in 2a classe"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "möglichst am Fenster",
+                                                            "en": "if possible at the window",
+                                                            "fr": "möglichst am Fenster",
+                                                            "it": "preferibilmente finestrino"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "möglichst in der Mitte",
+                                                            "en": "if possible in the center",
+                                                            "fr": "möglichst in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "möglichst am Gang",
+                                                            "en": "if possible at the corridor",
+                                                            "fr": "möglichst am Gang",
+                                                            "it": "preferibilmente corridoio"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "NECESSARILY_WINDOW_LOWER",
+                                                        "name": {
+                                                            "de": "unbedingt am Fenster",
+                                                            "en": "absolutely situated at the window",
+                                                            "fr": "unbedingt am Fenster",
+                                                            "it": "assolutamente finestrino"
+                                                        }
+                                                    }
+                                                ],
+                                                "capacity": 6
+                                            }
+                                        ],
+                                        "reservability": "RP"
+                                    }
+                                ],
+                                "priceClass2": 0
+                            },
+                            "priceClass2": 109.8,
+                            "refCards": [],
+                            "co2Savings": 154.67,
+                            "outputTypes": [
+                                "MOBILE",
+                                "PDF",
+                                "SECURITY_PAPER"
+                            ],
+                            "prodGroupLabels": [
+                                "Kein Storno",
+                                "Zugbindung",
+                                "eineFahrt",
+                                "featured",
+                                "nightjetSparschiene"
+                            ],
+                            "validityPeriodFrom": "2024-02-09T20: 18: 00.000+01: 00",
+                            "validityPeriodTo": "2024-02-10T05: 44: 00.000+01: 00",
+                            "validityType": "oneway",
+                            "rideBound": true,
+                            "singleVariety": true,
+                            "reservationMandatory": true
+                        },
+                        {
+                            "name": "Sparschiene Komfort inkl. Reservierung",
+                            "productType": "CONNECTION",
+                            "partialOffer": false,
+                            "productDetails": [
+                                {
+                                    "scope": [
+                                        [
+                                            0,
+                                            0,
+                                            0,
+                                            7
+                                        ]
+                                    ],
+                                    "title": "ARES Sparschiene Komfort Nachtverkehr",
+                                    "name": {
+                                        "de": "Sparschiene Komfort inkl. Reservierung",
+                                        "en": "Sparschiene incl. Reservation",
+                                        "it": "Sparschiene prenotazione incl."
+                                    },
+                                    "validityPeriodFrom": "2024-02-09T20: 18: 00+01: 00",
+                                    "validityPeriodTo": "2024-02-10T05: 44: 00+01: 00",
+                                    "globallyPriced": true,
+                                    "objects": [
+                                        {
+                                            "index": 0,
+                                            "priceClass2": 64.9
+                                        },
+                                        {
+                                            "index": 1,
+                                            "priceClass2": 64.9
+                                        }
+                                    ],
+                                    "prodGroupLabels": [
+                                        "Zugbindung",
+                                        "eineFahrt",
+                                        "featured",
+                                        "komfortticketStorno"
+                                    ],
+                                    "validityType": "oneway"
+                                }
+                            ],
+                            "reservation": {
+                                "reservationSegments": [
+                                    {
+                                        "scope": [
+                                            0,
+                                            0,
+                                            0,
+                                            7
+                                        ],
+                                        "compartments": [
+                                            {
+                                                "externalIdentifier": "couchette4",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 159.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 159.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756464,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 4 Personen",
+                                                    "en": "Compartment for 4 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 4 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 190,
+                                                "capacity": 4
+                                            },
+                                            {
+                                                "externalIdentifier": "couchette6",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 99.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 99.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756468,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 6 Personen",
+                                                    "en": "Compartment for 6 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 6 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 70,
+                                                "capacity": 6
+                                            },
+                                            {
+                                                "externalIdentifier": "single",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 429.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 429.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756872,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 1 Person (Single)",
+                                                    "en": "Compartment for 1 passenger (Single)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 1 persona (Single)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "surchargePrice": 730,
+                                                "capacity": 1
+                                            },
+                                            {
+                                                "externalIdentifier": "singlePlus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 494.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 549.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756876,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 1 Person mit Dusche/WC (Single plus)",
+                                                    "en": "Compartment for 1 passenger with shower/WC (Single plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 1 person1 con doccia/WC  (Single plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "surchargePrice": 915,
+                                                "capacity": 1
+                                            },
+                                            {
+                                                "externalIdentifier": "double",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 259.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 259.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756880,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 2 Personen (Double)",
+                                                    "en": "Compartment for 2 passengers (Double)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 2 persone (Double)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 390,
+                                                "capacity": 2
+                                            },
+                                            {
+                                                "externalIdentifier": "doublePlus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 304.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 304.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756892,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 2 Personen mit Dusche/WC (Double plus)",
+                                                    "en": "Compartment for 2 passengers with shower/WC (Double plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 2 persone con doccia/WC  (Double plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 480,
+                                                "capacity": 2
+                                            },
+                                            {
+                                                "externalIdentifier": "T3",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 154.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 154.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756913,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 3 Personen (Triple)",
+                                                    "en": "Compartment for 3 passengers (Triple)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 3 persone (Triple)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 180,
+                                                "capacity": 3
+                                            },
+                                            {
+                                                "externalIdentifier": "T3Plus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 199.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 199.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756923,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 3 Personen mit Dusche/WC (Triple plus)",
+                                                    "en": "Compartment for 3 passengers with shower/WC (Triple plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 3 persone con doccia/WC (Triple plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 270,
+                                                "capacity": 3
+                                            },
+                                            {
+                                                "externalIdentifier": "privateCouchette",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "privateVariations": [
+                                                    {
+                                                        "count": 1,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 524.9
+                                                                    },
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 0
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 395.1
+                                                    },
+                                                    {
+                                                        "count": 2,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 524.9
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 524.9
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 920
+                                                    }
+                                                ],
+                                                "id": 5000057,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Privatabteil im Liegewagen für bis zu 6 Personen",
+                                                    "en": "Private compartment for up to 6 passengers in a couchette coach",
+                                                    "fr": ".",
+                                                    "it": "Scompartimento privato in carrozza cuccette per 6 passeggeri al massimo"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "capacity": 6,
+                                                "privateCompartmentContainsSubcompartments": false
+                                            },
+                                            {
+                                                "externalIdentifier": "privateSeat",
+                                                "accommodationType": "SE",
+                                                "special": false,
+                                                "privateVariations": [
+                                                    {
+                                                        "count": 1,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 319.9
+                                                                    },
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 0
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 190.1
+                                                    },
+                                                    {
+                                                        "count": 2,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 319.9
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 319.9
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 510
+                                                    }
+                                                ],
+                                                "id": 5000059,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Privatabteil im Sitzwagen 2. Klasse",
+                                                    "en": "Private compartment in a 2nd class seated coach",
+                                                    "fr": ".",
+                                                    "it": "Scompartimento privato in carrozza con posti a sedere,2a classe"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "capacity": 6,
+                                                "privateCompartmentContainsSubcompartments": false
+                                            },
+                                            {
+                                                "externalIdentifier": "femaleCouchette4",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 159.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 159.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 5000068,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Damenabteil für 4 Personen",
+                                                    "en": "Ladies only compartment for 4 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento donna per 4 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente finestrinopreferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 190,
+                                                "capacity": 4
+                                            },
+                                            {
+                                                "externalIdentifier": "femaleCouchette6",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 99.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 99.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 5000069,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Damenabteil für 6 Personen",
+                                                    "en": "Ladies only compartment for 6 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento donna per 6 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente finestrinopreferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 70,
+                                                "capacity": 6
+                                            },
+                                            {
+                                                "externalIdentifier": "sideCorridorCoach_2",
+                                                "accommodationType": "SE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 64.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 64.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 5000075,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Sitzplatz 2. Klasse",
+                                                    "en": "Seat 2nd class",
+                                                    "fr": ".",
+                                                    "it": "Posto a sedere in 2a classe"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "möglichst am Fenster",
+                                                            "en": "if possible at the window",
+                                                            "fr": "möglichst am Fenster",
+                                                            "it": "preferibilmente finestrino"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "möglichst in der Mitte",
+                                                            "en": "if possible in the center",
+                                                            "fr": "möglichst in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "möglichst am Gang",
+                                                            "en": "if possible at the corridor",
+                                                            "fr": "möglichst am Gang",
+                                                            "it": "preferibilmente corridoio"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "NECESSARILY_WINDOW_LOWER",
+                                                        "name": {
+                                                            "de": "unbedingt am Fenster",
+                                                            "en": "absolutely situated at the window",
+                                                            "fr": "unbedingt am Fenster",
+                                                            "it": "assolutamente finestrino"
+                                                        }
+                                                    }
+                                                ],
+                                                "capacity": 6
+                                            }
+                                        ],
+                                        "reservability": "RP"
+                                    }
+                                ],
+                                "priceClass2": 0
+                            },
+                            "priceClass2": 129.8,
+                            "refCards": [],
+                            "co2Savings": 154.67,
+                            "outputTypes": [
+                                "MOBILE",
+                                "PDF",
+                                "SECURITY_PAPER"
+                            ],
+                            "prodGroupLabels": [
+                                "Zugbindung",
+                                "eineFahrt",
+                                "featured",
+                                "komfortticketStorno"
+                            ],
+                            "validityPeriodFrom": "2024-02-09T20: 18: 00.000+01: 00",
+                            "validityPeriodTo": "2024-02-10T05: 44: 00.000+01: 00",
+                            "validityType": "oneway",
+                            "rideBound": true,
+                            "singleVariety": true,
+                            "reservationMandatory": true
+                        },
+                        {
+                            "name": "Standard-Ticket inkl. Reservierung",
+                            "productType": "CONNECTION",
+                            "partialOffer": false,
+                            "productDetails": [
+                                {
+                                    "scope": [
+                                        [
+                                            0,
+                                            0,
+                                            0,
+                                            7
+                                        ]
+                                    ],
+                                    "title": "ARES Standard-Ticket  Nachtverkehr NP",
+                                    "name": {
+                                        "de": "Standard-Ticket inkl. Reservierung",
+                                        "en": "Standard-Ticket inkl. Reservierung",
+                                        "it": "Standard-Ticket inkl. Reservierung"
+                                    },
+                                    "validityPeriodFrom": "2024-02-09T20: 18: 00+01: 00",
+                                    "validityPeriodTo": "2024-02-10T05: 44: 00+01: 00",
+                                    "globallyPriced": true,
+                                    "objects": [
+                                        {
+                                            "index": 0,
+                                            "priceClass2": 89.9
+                                        },
+                                        {
+                                            "index": 1,
+                                            "priceClass2": 89.9
+                                        }
+                                    ],
+                                    "prodGroupLabels": [
+                                        "918 1 Reservierung Default",
+                                        "Vollstorno",
+                                        "Zugbindung",
+                                        "eineFahrt",
+                                        "featured"
+                                    ],
+                                    "validityType": "oneway"
+                                }
+                            ],
+                            "reservation": {
+                                "reservationSegments": [
+                                    {
+                                        "scope": [
+                                            0,
+                                            0,
+                                            0,
+                                            7
+                                        ],
+                                        "compartments": [
+                                            {
+                                                "externalIdentifier": "couchette4",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 179.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 179.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756464,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 4 Personen",
+                                                    "en": "Compartment for 4 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 4 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 180,
+                                                "capacity": 4
+                                            },
+                                            {
+                                                "externalIdentifier": "couchette6",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 134.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 134.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756468,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 6 Personen",
+                                                    "en": "Compartment for 6 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 6 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 90,
+                                                "capacity": 6
+                                            },
+                                            {
+                                                "externalIdentifier": "single",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 514.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 514.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756872,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 1 Person (Single)",
+                                                    "en": "Compartment for 1 passenger (Single)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 1 persona (Single)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "surchargePrice": 850,
+                                                "capacity": 1
+                                            },
+                                            {
+                                                "externalIdentifier": "singlePlus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 664.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 664.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756876,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 1 Person mit Dusche/WC (Single plus)",
+                                                    "en": "Compartment for 1 passenger with shower/WC (Single plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 1 person1 con doccia/WC  (Single plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "surchargePrice": 1150,
+                                                "capacity": 1
+                                            },
+                                            {
+                                                "externalIdentifier": "double",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 284.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 284.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756880,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 2 Personen (Double)",
+                                                    "en": "Compartment for 2 passengers (Double)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 2 persone (Double)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 390,
+                                                "capacity": 2
+                                            },
+                                            {
+                                                "externalIdentifier": "doublePlus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 349.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 349.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756892,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 2 Personen mit Dusche/WC (Double plus)",
+                                                    "en": "Compartment for 2 passengers with shower/WC (Double plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 2 persone con doccia/WC  (Double plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 520,
+                                                "capacity": 2
+                                            },
+                                            {
+                                                "externalIdentifier": "T3",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 204.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 204.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756913,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 3 Personen (Triple)",
+                                                    "en": "Compartment for 3 passengers (Triple)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 3 persone (Triple)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 230,
+                                                "capacity": 3
+                                            },
+                                            {
+                                                "externalIdentifier": "T3Plus",
+                                                "accommodationType": "BE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 264.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 264.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 3756923,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Abteil für 3 Personen mit Dusche/WC (Triple plus)",
+                                                    "en": "Compartment for 3 passengers with shower/WC (Triple plus)",
+                                                    "fr": ".",
+                                                    "it": "scompartimento per 3 persone con doccia/WC (Triple plus)"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 350,
+                                                "capacity": 3
+                                            },
+                                            {
+                                                "externalIdentifier": "privateCouchette",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "privateVariations": [
+                                                    {
+                                                        "count": 1,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 604.9
+                                                                    },
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 0
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 425.1
+                                                    },
+                                                    {
+                                                        "count": 2,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 604.9
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 604.9
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 1030
+                                                    }
+                                                ],
+                                                "id": 5000057,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Privatabteil im Liegewagen für bis zu 6 Personen",
+                                                    "en": "Private compartment for up to 6 passengers in a couchette coach",
+                                                    "fr": ".",
+                                                    "it": "Scompartimento privato in carrozza cuccette per 6 passeggeri al massimo"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "capacity": 6,
+                                                "privateCompartmentContainsSubcompartments": false
+                                            },
+                                            {
+                                                "externalIdentifier": "privateSeat",
+                                                "accommodationType": "SE",
+                                                "special": false,
+                                                "privateVariations": [
+                                                    {
+                                                        "count": 1,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 424.9
+                                                                    },
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 0
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 245.1
+                                                    },
+                                                    {
+                                                        "count": 2,
+                                                        "allocations": [
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 0,
+                                                                        "price": 424.9
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "objects": [
+                                                                    {
+                                                                        "index": 1,
+                                                                        "price": 424.9
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "surchargePrice": 670
+                                                    }
+                                                ],
+                                                "id": 5000059,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Privatabteil im Sitzwagen 2. Klasse",
+                                                    "en": "Private compartment in a 2nd class seated coach",
+                                                    "fr": ".",
+                                                    "it": "Scompartimento privato in carrozza con posti a sedere,2a classe"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [],
+                                                "capacity": 6,
+                                                "privateCompartmentContainsSubcompartments": false
+                                            },
+                                            {
+                                                "externalIdentifier": "femaleCouchette4",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 179.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 179.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 5000068,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Damenabteil für 4 Personen",
+                                                    "en": "Ladies only compartment for 4 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento donna per 4 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente finestrinopreferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 180,
+                                                "capacity": 4
+                                            },
+                                            {
+                                                "externalIdentifier": "femaleCouchette6",
+                                                "accommodationType": "LE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 134.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 134.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 5000069,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Damenabteil für 6 Personen",
+                                                    "en": "Ladies only compartment for 6 passengers",
+                                                    "fr": ".",
+                                                    "it": "scompartimento donna per 6 persone"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "oben",
+                                                            "en": "top",
+                                                            "fr": "oben",
+                                                            "it": "preferibilmente finestrinopreferibilmente in alto"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "unten",
+                                                            "en": "lower",
+                                                            "fr": "unten",
+                                                            "it": "preferibilmente in basso"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "in der Mitte",
+                                                            "en": "middle",
+                                                            "fr": "in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    }
+                                                ],
+                                                "surchargePrice": 90,
+                                                "capacity": 6
+                                            },
+                                            {
+                                                "externalIdentifier": "sideCorridorCoach_2",
+                                                "accommodationType": "SE",
+                                                "special": false,
+                                                "objects": [
+                                                    {
+                                                        "index": 0,
+                                                        "price": 89.9,
+                                                        "reservability": "RP"
+                                                    },
+                                                    {
+                                                        "index": 1,
+                                                        "price": 89.9,
+                                                        "reservability": "RP"
+                                                    }
+                                                ],
+                                                "id": 5000075,
+                                                "accommodationClass": [
+                                                    "class2"
+                                                ],
+                                                "name": {
+                                                    "de": "Sitzplatz 2. Klasse",
+                                                    "en": "Seat 2nd class",
+                                                    "fr": ".",
+                                                    "it": "Posto a sedere in 2a classe"
+                                                },
+                                                "freeFollowupReservationApplied": false,
+                                                "spotLocations": [
+                                                    {
+                                                        "param": "WINDOW_UPPER",
+                                                        "name": {
+                                                            "de": "möglichst am Fenster",
+                                                            "en": "if possible at the window",
+                                                            "fr": "möglichst am Fenster",
+                                                            "it": "preferibilmente finestrino"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "MIDDLE",
+                                                        "name": {
+                                                            "de": "möglichst in der Mitte",
+                                                            "en": "if possible in the center",
+                                                            "fr": "möglichst in der Mitte",
+                                                            "it": "preferibilmente centrale"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "AISLE_LOWER",
+                                                        "name": {
+                                                            "de": "möglichst am Gang",
+                                                            "en": "if possible at the corridor",
+                                                            "fr": "möglichst am Gang",
+                                                            "it": "preferibilmente corridoio"
+                                                        }
+                                                    },
+                                                    {
+                                                        "param": "NECESSARILY_WINDOW_LOWER",
+                                                        "name": {
+                                                            "de": "unbedingt am Fenster",
+                                                            "en": "absolutely situated at the window",
+                                                            "fr": "unbedingt am Fenster",
+                                                            "it": "assolutamente finestrino"
+                                                        }
+                                                    }
+                                                ],
+                                                "capacity": 6
+                                            }
+                                        ],
+                                        "reservability": "RP"
+                                    }
+                                ],
+                                "priceClass2": 0
+                            },
+                            "priceClass2": 179.8,
+                            "refCards": [],
+                            "co2Savings": 154.67,
+                            "outputTypes": [
+                                "MOBILE",
+                                "PDF",
+                                "SECURITY_PAPER"
+                            ],
+                            "prodGroupLabels": [
+                                "918 1 Reservierung Default",
+                                "Vollstorno",
+                                "Zugbindung",
+                                "eineFahrt",
+                                "featured"
+                            ],
+                            "validityPeriodFrom": "2024-02-09T20: 18: 00.000+01: 00",
+                            "validityPeriodTo": "2024-02-10T05: 44: 00.000+01: 00",
+                            "validityType": "oneway",
+                            "rideBound": true,
+                            "singleVariety": true,
+                            "reservationMandatory": true
+                        }
+                    ]
+                }
+            ],
+            "filter": {
+                "maxTrainChanges": 0
+            },
+            "rfpIndex": 0
+        }
+    ],
+    "ok": true,
+    "responseCode": 200
+}

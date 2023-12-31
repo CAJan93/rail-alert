@@ -1,0 +1,328 @@
+{
+    "result": [
+        {
+            "connections": [
+                {
+                    "sections": [
+                        {
+                            "departureTimestamp": "2024-01-05T20:18:00+01:00",
+                            "arrivalTimestamp": "2024-01-06T05:44:00+01:00",
+                            "passlist": [
+                                {
+                                    "name": "Berlin Hbf",
+                                    "stationNumber": 8098160,
+                                    "departure": "2024-01-05T20:18:00+01:00",
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "1",
+                                    "stopState": [
+                                        "DEP_PROGNOSED"
+                                    ],
+                                    "gpsCoordinates": [
+                                        52525589,
+                                        13369549
+                                    ]
+                                },
+                                {
+                                    "name": "Berlin Südkreuz",
+                                    "stationNumber": 8011113,
+                                    "departure": "2024-01-05T20:26:00+01:00",
+                                    "arrival": "2024-01-05T20:23:00+01:00",
+                                    "arrivalAccessExitAmendable": false,
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "3",
+                                    "gpsCoordinates": [
+                                        52475043,
+                                        13365315
+                                    ]
+                                },
+                                {
+                                    "name": "Halle(Saale)Hbf",
+                                    "stationNumber": 8010159,
+                                    "departure": "2024-01-05T22:18:00+01:00",
+                                    "arrival": "2024-01-05T22:16:00+01:00",
+                                    "arrivalAccessExitAmendable": true,
+                                    "arrivalPlatform": "6",
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "6",
+                                    "gpsCoordinates": [
+                                        51477510,
+                                        11987088
+                                    ]
+                                },
+                                {
+                                    "name": "Erfurt Hbf",
+                                    "stationNumber": 8010101,
+                                    "departure": "2024-01-05T23:36:00+01:00",
+                                    "arrival": "2024-01-05T23:34:00+01:00",
+                                    "arrivalAccessExitAmendable": true,
+                                    "arrivalPlatform": "9",
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "9",
+                                    "gpsCoordinates": [
+                                        50972550,
+                                        11038502
+                                    ]
+                                },
+                                {
+                                    "name": "Frankfurt(Main)Süd",
+                                    "stationNumber": 8002041,
+                                    "departure": "2024-01-06T02:12:00+01:00",
+                                    "arrival": "2024-01-06T02:10:00+01:00",
+                                    "arrivalAccessExitAmendable": true,
+                                    "arrivalPlatform": "7",
+                                    "departureAccessExitAmendable": true,
+                                    "departurePlatform": "7",
+                                    "gpsCoordinates": [
+                                        50099365,
+                                        8686456
+                                    ]
+                                },
+                                {
+                                    "name": "Mannheim Hbf",
+                                    "stationNumber": 8000244,
+                                    "departure": "2024-01-06T04:20:00+01:00",
+                                    "arrival": "2024-01-06T03:11:00+01:00",
+                                    "arrivalAccessExitAmendable": false,
+                                    "departureAccessExitAmendable": false,
+                                    "gpsCoordinates": [
+                                        49479352,
+                                        8468917
+                                    ]
+                                },
+                                {
+                                    "name": "Kehl(Gr)",
+                                    "stationNumber": 8000008,
+                                    "departure": "2024-01-06T05:40:00+01:00",
+                                    "arrival": "2024-01-06T05:40:00+01:00",
+                                    "arrivalAccessExitAmendable": false,
+                                    "departureAccessExitAmendable": false,
+                                    "gpsCoordinates": [
+                                        48575648,
+                                        7801118
+                                    ]
+                                },
+                                {
+                                    "name": "Strasbourg",
+                                    "stationNumber": 8700023,
+                                    "arrival": "2024-01-06T05:44:00+01:00",
+                                    "arrivalAccessExitAmendable": true,
+                                    "gpsCoordinates": [
+                                        48585339,
+                                        7734067
+                                    ]
+                                }
+                            ],
+                            "attributes": [
+                                {
+                                    "attributeType": "operator",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "DPN",
+                                    "svalue": "DPN",
+                                    "lvalue": "Nahreisezug"
+                                },
+                                {
+                                    "attributeType": "operator_id",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "81"
+                                },
+                                {
+                                    "attributeType": "pclass",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": 3
+                                },
+                                {
+                                    "attributeType": "intcat",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "NJ"
+                                },
+                                {
+                                    "attributeType": "cat",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "NJ      ",
+                                    "svalue": "NJ",
+                                    "lvalue": "nightjet",
+                                    "code": "3"
+                                },
+                                {
+                                    "attributeType": "name",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "NJ 40424"
+                                },
+                                {
+                                    "attributeType": "num",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "40424"
+                                },
+                                {
+                                    "attributeType": "intnum",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": 40424
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Reservierungspflicht",
+                                    "code": "RP",
+                                    "priority": 1
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Rollstuhlstellplatz",
+                                    "code": "RO",
+                                    "priority": 150
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Rollstuhlstellplatz - Voranmeldung unter +43 5 1717",
+                                    "code": "OA",
+                                    "priority": 150
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "rollstuhltaugliches WC",
+                                    "code": "OC",
+                                    "priority": 150
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "in Sitzwagen nur 2. Klasse",
+                                    "code": "J2",
+                                    "priority": 300
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "ÖBB Nightjet (www.nightjet.com)",
+                                    "code": "OJ",
+                                    "priority": 320
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Komfortticket (IRT Integrated Reservation Ticket)",
+                                    "code": "CT",
+                                    "priority": 320
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Schlafwagen",
+                                    "code": "SW",
+                                    "priority": 400
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Liegewagen",
+                                    "code": "LW",
+                                    "priority": 400
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Imbiss und Getränke beim Schlaf-/Liegewagenbetreuer erhältlich",
+                                    "code": "MN",
+                                    "priority": 450
+                                },
+                                {
+                                    "attributeType": "generic",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "nightjet",
+                                    "code": "ZN",
+                                    "priority": 100
+                                },
+                                {
+                                    "attributeType": "info",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Paris Est",
+                                    "code": "RL"
+                                },
+                                {
+                                    "attributeType": "dir",
+                                    "range": [
+                                        0,
+                                        7
+                                    ],
+                                    "value": "Paris Est"
+                                }
+                            ],
+                            "i": 0,
+                            "transportType": "journey"
+                        }
+                    ],
+                    "offers": []
+                }
+            ],
+            "filter": {
+                "maxTrainChanges": 0
+            },
+            "rfpIndex": 0
+        }
+    ],
+    "ok": true,
+    "responseCode": 200
+}
