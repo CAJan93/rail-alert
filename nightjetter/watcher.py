@@ -15,7 +15,6 @@ AVAIL_LEVEL_PRIVATE_COUCHETTE_OR_BED = 5
 prefix = "output"
 delimiter = ","
 
-
 class Nightjetter:
     def __init__(self) -> None:
         self.__session = requests.Session()
@@ -144,7 +143,7 @@ def find_connections(
         if offers is None:
             continue
         all_offers.append(
-            f"found connection from {station_from} to {station_to} at {str(next_date)}"
+            f"found bookable ÖBB Nightjet offer from {station_from} to {station_to} at {str(next_date)}"
         )
 
     return all_offers
