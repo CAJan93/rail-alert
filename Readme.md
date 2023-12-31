@@ -2,6 +2,12 @@
 
 Watch for a connection with ÖBB Nightjet and send a notification to your Telegram if its available to book.
 
+I am still working on the messages, but they look something like this: 
+
+![](Screenshot.png)
+
+For the first query on February connections where found. For the query for April there were no bookable connections yet. 
+
 ## How to install? 
 
 ```sh
