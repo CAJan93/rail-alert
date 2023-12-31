@@ -15,6 +15,7 @@ AVAIL_LEVEL_PRIVATE_COUCHETTE_OR_BED = 5
 prefix = "output"
 delimiter = ","
 
+
 class Nightjetter:
     def __init__(self) -> None:
         self.__session = requests.Session()
