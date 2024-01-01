@@ -56,14 +56,14 @@ def main():
 
     count = 0
     while True:
+        bot.has_timeout()
         if count == 0:
             msg = f"Searching for connection from {args.from_city} to {args.to_city} on {str(date_start)} + {args.advance} days. Program is still running..."
             bot.send_messages(msg)
-        count = (count + 1) % 24
+        count = (count + 1) % 5
 
         try:
             bot.print_status()
-
             if args.sub == "nightjet":
                 conns = find_connections(
                     args.from_city,
